@@ -10,14 +10,24 @@
 // }
 
 // console.log(nome)
-const nome="Fernando"
-function teste(){
+// const nome="Fernando"
+// function teste(){
     
-    if (true){
-        let nome="Juliano"
-        console.log("Dentro do IF do teste: " + nome)
-    }
-    console.log("Dentro do teste: " + nome)
-}
-teste()
-console.log("Fora do teste:" + nome)
+//     if (true){
+//         let nome="Juliano"
+//         console.log("Dentro do IF do teste: " + nome)
+//     }
+//     console.log("Dentro do teste: " + nome)
+// }
+// teste()
+// console.log("Fora do teste:" + nome)
+
+let nome = "Juliano"
+nome = "Fernando"
+nome = 10 /**Java realiza o Casting (Conversão de tipos de variaveis) de forma automática */
+
+const curso="JavaScript"
+curso = "Senai"
+
+console.log(nome)
+console.log(curso)
